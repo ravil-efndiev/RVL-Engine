@@ -6,13 +6,13 @@ RVL Engine is a C++ low-middle level game engine for 2D games (has 3D features t
 
 It has a lot of modules such as 2D batch rendering, Graphical 2D tilemap editor, 3D forward rendering, 3D model loading, simple post-processing and indev lighting system
 Main game developement pattern used to create games is ECS (Entity-Component-System) and it currently has almost all functionality needed
-to make real projects, you can read detailed information on ECS and other parts of an engine in [documentation](docs.rvl)
+to make real projects, you can read detailed information on ECS and other parts of an engine in [documentation](https://rvl-engine-docs.web.app/)
 
 ## Getting Started
 
 Engine uses CMake build system and almost all needed dependencies are included as submodules, all you need to do to install and run engine
 is to clone this repository with ```--recursive``` flag. On Windows you'll probabbly need to recompile engine itself so it compiles as 'lib' static library, but all windows-related information will be evantually written in documentation when I'll port engine to Windows
-All game code is written in "sandbox" project, or any other project that has same structure as sandbox, details can be seen in [documentation](docs.rvl)
+All game code is written in "sandbox" project, or any other project that has same structure as sandbox, details can be seen in [documentation](https://rvl-engine-docs.web.app/)
 
 ## 'Hello, World' program
 
